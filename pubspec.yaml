@@ -1,0 +1,38 @@
+name: accessible_oman_map
+description: "Accessible Oman Map App"
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1  
+  flutter_map: ^6.0.0
+  latlong2: ^0.9.1
+  geolocator: ^10.1.0
+  image_picker: ^1.0.0
+
+  # 🗺️ Map
+  # google_maps_flutter: ^2.5.0
+  
+
+  # 🔌 Database (Supabase)
+  supabase_flutter: ^2.5.0
+
+  # 📸 Images (optional but recommended)
+  cached_network_image: ^3.4.1
+
+  # 🎨 Icons (optional)
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
